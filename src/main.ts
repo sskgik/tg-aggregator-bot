@@ -43,6 +43,9 @@ async function main(): Promise<void> {
 
     bot.onText(/\/send_tx/, handleSendTXCommand);
 
+    //StonfiのSwap TX
+    //bot.onText(/\/send_tx/, handleSwapTXCommand);
+
     bot.onText(/\/disconnect/, handleDisconnectCommand);
 
     bot.onText(/\/my_wallet/, handleShowMyWalletCommand);

@@ -13,7 +13,8 @@
     "dotenv": "^16.0.3",
     "node-telegram-bot-api": "^0.61.0",
     "qrcode": "^1.5.1",
-    "redis": "^4.6.5"
+    "redis": "^4.6.5",
+    "telegraf": "^4.16.3"
   },
   "devDependencies": {
     "@types/node-telegram-bot-api": "^0.61.4",
